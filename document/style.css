@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+body
+{
+    position: relative;
+    /* background-image: url(../images/netflixmainbanner.jpg); */
+}
+.header
+{
+    position: absolute;
+    top: 22px;
+    left: 174px;
+}
+.main_banner-background img
+{
+    width: 100%;
+    height: 704px;
+    object-fit: cover;
+}
+.logo_container
+{
+    display: flex;
+    width: 148px;
+    height: 40px;
+}
+.logo_container p
+{
+    font-size: 41px;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    color:rgb(193, 17, 25) ;
+    font-weight: bold;
+}
+#e,#i
+{
+  font-size: 38px;
+  font-weight: bold;
+}
+#t
+{
+  font-size: 37px;
+  font-weight: bold;
+}
+#f
+{
+    font-weight: bold;
+  font-size: 36px;
+}
+#l
+{
+   font-size: 37px;
+   font-weight: bold;
+}
+.leftbtn button:hover
+{
+   background-color: rgb(193, 17, 25);
+   cursor: pointer;
+   transition: all .9s;
+   border: 2px solid rgb(193, 17, 25);
+}
+.leftbtn button
+{
+    width: 91px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 17px;
+    background: transparent;
+    color: #fff;
+    font-weight: 700;
+    transition: all .5s;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+}
+.rightbtn button
+{
+    width: 75px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 17px;
+    background: transparent;
+    color: #fff;
+    font-weight: 700;
+    transition: all .5s;
+    background-color:rgb(193, 17, 25) ;
+    border: 2px solid rgb(193, 17, 25);
+    border-radius: 5px;
+}
+.rightbtn button:hover
+{
+   background: transparent;
+   transition: all .9s;
+   cursor: pointer;
+   border: 2px solid black;
+}
+.header
+{
+    display: flex;
+    align-items: center;
+    gap: 74%;
+    width: 72%;
+}
+.haedebutton
+{
+    display: flex;
+    gap: 10px;
+}
+.mainbannertext,.bannertext2
+{
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: #fff;
+}
+.second_text,.secbanntext3
+{
+font-size: 1.5rem;
+font-weight: 400;
+font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+color: #fff;
+}
+.third_text
+{
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+   color: #fff;
+}
+.banner_text
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    top: 278px;
+    left: 323px;
+    position: absolute;
+}
+.email_section
+{
+    display: flex;
+    gap: 10px;
+}
+.email input
+{
+    width: 374px;
+    height: 41px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid #757676;
+    background-color: #000000bd;
+    color: #fff;
+    padding: 5px;
+}
+::placeholder
+{
+    color: #fff;
+}
+.get{
+    margin-bottom: 2px;
+}
+.get button
+{
+    width: 203px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    font-weight: 900;
+    border: 1px solid rgb(193, 17, 25);
+    background-color: rgb(193, 17, 25);
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 1px;
+    cursor: pointer;
+}
+
+.scecond_banner-section
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 582px;
+    background-color: black;
+}
+.thirdbanner-image
+{
+    display: flex;
+    height: 582px;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    margin-top: 5px;
+    position: relative;
+}
+.imagedow img
+{
+    width: 57px;
+    height: 80px;
+}
+.uppertextdow
+{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: rgb(255,255,255);
+}
+.lowertextdow
+{
+    font-size: 0.875rem;
+    color: #0071eb;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.downloadthird
+{
+    width: 316px;
+    height: 103px;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border: 2px solid #797676;
+    border-radius: 10px;
+    position: absolute;
+    top: 65%;
+    left: 312px;
+    background-color: #000;
+}
+.textdow
+{
+  width: 168px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.imagedow
+{
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icondow
+{
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third-image img
+{
+    width: 579px;
+    height: 434px;
+}
+.lastheader h2
+{
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color:#fff;
+}
+.option
+{
+    width: 1170px;
+    height: 84px;
+    display: flex;
+    background-color: #000;
+    align-items: center;
+    color: #1c1919;
+    border-radius: 3px;
+    justify-content: space-between;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+.lastbannersection
+{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin-top: 5px;
+}
+.lastsection
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.lastpartoption
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.leftheader span
+{
+    font-size: 24px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.pluslogo span
+{
+    font-size: 40px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+.pluslogo
+{
+    height: 84px;
+    display: flex;
+    align-items: center;
+margin-right: 50px;
+}
+.leftheader
+{
+    margin-left: 50px;
+}
+.lastheader
+{
+    height: 105px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.footer-email
+{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
