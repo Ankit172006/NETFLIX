@@ -112,6 +112,7 @@ body
     gap: 74%;
     width: 72%;
 }
+
 .haedebutton
 {
     display: flex;
@@ -273,19 +274,19 @@ color: #fff;
     font-weight: 900;
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
     color:#fff;
+    margin-top: 70px;
 }
 .option
 {
     width: 1170px;
     height: 84px;
     display: flex;
-    background-color: #000;
+    background-color: rgb(45, 45, 45);
     align-items: center;
     color: #1c1919;
-    border-radius: 3px;
     justify-content: space-between;
     cursor: pointer;
-    border: 1px solid #fff;
+    transition: all .4s;
 }
 .lastbannersection
 {
@@ -324,7 +325,7 @@ color: #fff;
     font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
     font-weight: 600;
     color: #fff;
-    margin-bottom: 7px;
+    margin-top: 10px;
     cursor: pointer;
 }
 .pluslogo
@@ -332,11 +333,11 @@ color: #fff;
     height: 84px;
     display: flex;
     align-items: center;
-margin-right: 50px;
+    margin-right: 25px;
 }
 .leftheader
 {
-    margin-left: 50px;
+    margin-left: 25px;
 }
 .lastheader
 {
@@ -347,10 +348,76 @@ margin-right: 50px;
     justify-content: center;
     cursor: pointer;
 }
+.icondow svg
+{
+    color: #fff;
+    cursor: pointer;
+}
 .footer-email
 {
-    height: 100px;
+    height: 230px;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: 20px;
 }
+.option:hover
+{
+   background-color: rgb(66, 65, 65);
+   transition: all .3s;
+}
+
+.footerulli
+{
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+.footer ul
+{
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+}
+.footer ul li
+{
+    list-style: none;
+}
+.call_section
+{
+    height: 100px;
+    display: flex;
+    align-items: end;
+    margin-bottom: 15px;
+    margin-left: 246px;
+    margin-right: 246px;
+}
+.footersection a,.qustion-call
+{
+   color: rgb(255,255,255);
+   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+   font-size: 14px;
+}
+footer
+{
+    background-color: #000;
+    margin-top: 5px;
+}
+.footersection a:hover
+{
+    color: rgb(193, 17, 25);
+    transition: all .4s;
+    text-decoration: none;
+}
+.footer
+{
+    width: 200px;
+    height: 250px;
+}
+
+
+
+/* responsive netflix layout */
+
