@@ -559,7 +559,150 @@ footer
 {
     display: flex;
 }
-
+.signup_part1
+{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    width: 317px;
+}
+.main_signupsection
+{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    position: absolute;
+    top: 19%;
+    left: 37%;
+}
+.signup_gmailpassbtn
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.gmailname input,.gmail_pass input
+{
+    width: 304px;
+    height: 50px;
+    display: flex;
+    outline: none;
+    font-size: 20px;
+    background-color: #333;
+    border: none;
+    border: 2px solid #333;
+    color: #fff;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.signupbtn button
+{
+    width: 314px;
+    height: 50px;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    background-color: #e50914;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+}
+::placeholder
+{
+    font-size: 15px;
+}
+.remember_needhelp
+{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-bottom: 10px;
+}
+.signup_text
+{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: end;
+}
+.signup_text h1
+{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: end;
+    font-size: 18px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: #000;
+    font-size: 32px;
+    font-weight: 500;
+}
+.signup_part2
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 317px;
+}
+.newnetflix p
+{
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+}
+.lowertext span
+{
+    color: #8c8c8c;
+    font-size: 18px;
+    width: 100%;
+}
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+    accent-color: #e50914;
+  }
+  .remeber
+  {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  }
+  .help a,.newnetflix a
+  {
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    text-decoration: none;
+    transition: .5s;
+    color: blue;
+  }
+  .help a:hover,.newnetflix a:hover
+  {
+    text-decoration: underline;
+    transition: .5s;
+  }
+  .newnetflix
+  {
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  }
+.signup_container
+{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    background-color: rgb(104 100 100 / 75%);
+    border-radius: 5px;
+}
+.rightbtn button a
+{
+    text-decoration: none;
+    color: #fff;
+}
 @media only screen and (max-width:564px)
 {
 .header
@@ -647,6 +790,7 @@ footer
     text-align: center;
     display: flex;
     justify-content: center;
+    margin-left: 8px;
 }
 .third_part
 {
@@ -673,6 +817,24 @@ footer
 #secspan 
 {
     font-size: 30px;
+    display: flex;
+    margin-left: 14px;
 }
-
+.main_signupsection
+{
+    left: 4px;
+    top: 13%;
+}
+#first_span
+{
+    margin-left: 10px;
+}
+.signup_email
+{
+    margin-left: 20px;
+}
+.email_name
+{
+margin-left: 10px;
+}
 }
